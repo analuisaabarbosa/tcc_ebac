@@ -1,0 +1,27 @@
+{
+  
+  "name": "test-mobile-ebacstore",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@wdio/allure-reporter": "^9.0.8",
+    "@wdio/cli": "^9.0.9",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "@wdio/spec-reporter": "^9.0.8",
+    "appium-uiautomator2-driver": "^2.29.11"
+  
+  },
+  
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "test-mobile-ebacstore": "file:",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+
+}

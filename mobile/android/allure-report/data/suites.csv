@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10734","should login with valid credentials","","Thu Sep 12 13:14:41 BRT 2024","passed","Thu Sep 12 13:14:52 BRT 2024","","Login","",""
+"","15158","Must successfully register a user","","Thu Sep 12 13:15:10 BRT 2024","passed","Thu Sep 12 13:15:25 BRT 2024","","Sign up user","",""

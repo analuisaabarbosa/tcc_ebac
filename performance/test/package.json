@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Teste de performance.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test:p": "k6 run dist/products.test.js",
+    "test:c": "k6 run dist/customers.test.js"
+  },
+  "author": "analuisaabarbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@types/k6": "^0.54.1",
+    "babel-loader": "^9.2.1",
+    "core-js": "^3.39.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
